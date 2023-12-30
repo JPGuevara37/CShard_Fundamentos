@@ -1,0 +1,14 @@
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\bin\Debug\net8.0\C#_Fundamentos.exe
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\bin\Debug\net8.0\C#_Fundamentos.deps.json
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\bin\Debug\net8.0\C#_Fundamentos.runtimeconfig.json
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\bin\Debug\net8.0\C#_Fundamentos.dll
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\bin\Debug\net8.0\C#_Fundamentos.pdb
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.AssemblyInfoInputs.cache
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.AssemblyInfo.cs
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.dll
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\refint\C#_Fundamentos.dll
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.pdb
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\C#_Fundamentos.genruntimeconfig.cache
+C:\Users\posadmin\Documents\GitHub\C#_Fundamentos\obj\Debug\net8.0\ref\C#_Fundamentos.dll
