@@ -8,6 +8,8 @@ int largerValue = Math.Max(firstValue, secondValue);
 Console.WriteLine(largerValue);
 */
 
+/* juego de dados
+
 Random dice = new Random();
 
 int roll1 = dice.Next(1, 7);
@@ -53,3 +55,36 @@ else
 {
     Console.WriteLine("Premio de consolacion ganaste un gatito");
 }
+
+*/
+
+/* creacion de IF y ELSE IF
+
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage1 = 10;
+int discountPercentage2 = 20;
+
+// Your code goes herec
+
+ if (daysUntilExpiration == 0)
+ {
+    Console.WriteLine("Tu subscripcion ha expirado");
+    
+ }
+
+else if (daysUntilExpiration == 1)
+{
+    Console.WriteLine("Tu subscripcion termina en un 1 dia");
+    Console.WriteLine($"Renueve ahora y obtendra {discountPercentage2}%");
+}
+else if (daysUntilExpiration <= 5)
+{
+    Console.WriteLine($"Tu subscripcion expira en {daysUntilExpiration} dias");
+    Console.WriteLine($"Renueve ahora y obtendra {discountPercentage1}%");
+}
+else if (daysUntilExpiration <= 10)
+{
+    Console.WriteLine("Tu subscripcion expirara pronto, por favor renuevala");
+}
+*/
