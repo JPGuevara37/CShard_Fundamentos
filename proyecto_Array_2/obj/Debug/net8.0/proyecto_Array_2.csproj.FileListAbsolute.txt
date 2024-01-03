@@ -1,0 +1,15 @@
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\bin\Debug\net8.0\proyecto_Array_2.exe
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\bin\Debug\net8.0\proyecto_Array_2.deps.json
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\bin\Debug\net8.0\proyecto_Array_2.runtimeconfig.json
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\bin\Debug\net8.0\proyecto_Array_2.dll
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\bin\Debug\net8.0\proyecto_Array_2.pdb
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.AssemblyInfoInputs.cache
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.AssemblyInfo.cs
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.csproj.CoreCompileInputs.cache
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.sourcelink.json
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.dll
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\refint\proyecto_Array_2.dll
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.pdb
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\proyecto_Array_2.genruntimeconfig.cache
+C:\Users\posadmin\Documents\GitHub\CShard_Fundamentos\proyecto_Array_2\obj\Debug\net8.0\ref\proyecto_Array_2.dll
