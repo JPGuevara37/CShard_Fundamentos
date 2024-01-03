@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\C#_Fundamentos.csproj": {}
+    "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\varios\\C#_Fundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\C#_Fundamentos.csproj": {
+    "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\varios\\C#_Fundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\C#_Fundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\varios\\C#_Fundamentos.csproj",
         "projectName": "C#_Fundamentos",
-        "projectPath": "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\C#_Fundamentos.csproj",
+        "projectPath": "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\varios\\C#_Fundamentos.csproj",
         "packagesPath": "C:\\Users\\posadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\obj\\",
+        "outputPath": "C:\\Users\\posadmin\\Documents\\GitHub\\CShard_Fundamentos\\varios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
