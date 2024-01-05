@@ -1,5 +1,4 @@
-﻿/*
-using System.Security.Cryptography.X509Certificates;
+﻿using System.Security.Cryptography.X509Certificates;
 
 string[] estudiantes = {"Sophia","Andrew","Emma","Logan"};
 
@@ -133,71 +132,4 @@ Console.WriteLine("Student\t\tNota Examen\tNota Global\t\tCreditos Extra\n");
 
             Console.WriteLine($"{estudiante}\t\t{notasSoloExamenes}\t\t{notasDeEstudiantesGlobal}\t{estudianteLetraActual}\t\t{puntajeTotalCreditosExtra} ({soloCreditos}pts)");
     }
-*/
-
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-class Program
-{
-    static void Main()
-    {
-        string[] estudiantes = { "Sophia", "Andrew", "Emma", "Logan" };
-
-        Dictionary<string, int[]> notasEstudiantes = new Dictionary<string, int[]>
-        {
-            {"Sophia", new int[] {90, 86, 87, 98, 100, 94, 90}},
-            {"Andrew", new int[] {92, 89, 81, 96, 90, 89}},
-            {"Emma", new int[] {90, 85, 87, 98, 68, 89, 89, 89}},
-            {"Logan", new int[] {90, 95, 87, 88, 96, 96}}
-        };
-
-        Console.WriteLine("Student\t\tNota Examen\tNota Global\t\tCreditos Extra\n");
-
-        foreach (string estudiante in estudiantes)
-        {
-            int[] notasEstudiantesConCreditos = notasEstudiantes[estudiante];
-            int[] notasEstudiantesExamenes = notasEstudiantesConCreditos.Take(5).ToArray();
-            int[] puntosCreditos = notasEstudiantesConCreditos.Skip(5).ToArray();
-
-            decimal notasDeEstudiantesGlobal = CalcularPromedio(notasEstudiantesConCreditos, 5);
-            decimal notasSoloExamenes = CalcularPromedio(notasEstudiantesExamenes, 5);
-            decimal soloCreditos = CalcularPuntajeCreditosExtra(puntosCreditos, 10) / 5;
-            decimal puntajeTotalCreditosExtra = CalcularPuntajeCreditosExtra(notasEstudiantesConCreditos, 10) / notasEstudiantesConCreditos.Length;
-
-            string estudianteLetraActual = ObtenerGradoPorLetra(notasDeEstudiantesGlobal);
-
-            MostrarResultado(estudiante, notasSoloExamenes, notasDeEstudiantesGlobal, estudianteLetraActual, puntajeTotalCreditosExtra, soloCreditos);
-        }
-    }
-
-    static decimal CalcularPromedio(int[] notas, int materias)
-    {
-        return (decimal)notas.Take(materias).Sum() / materias;
-    }
-
-    static decimal CalcularPuntajeCreditosExtra(int[] puntosCreditos, int puntajeCreditosExtra)
-    {
-        return (decimal)puntosCreditos.Sum() / puntajeCreditosExtra;
-    }
-
-    static string ObtenerGradoPorLetra(decimal notasDeEstudiantesGlobal)
-    {
-        if (notasDeEstudiantesGlobal >= 97) return "A+";
-        if (notasDeEstudiantesGlobal >= 93) return "A";
-        if (notasDeEstudiantesGlobal >= 90) return "A-";
-        if (notasDeEstudiantesGlobal >= 87) return "B+";
-        if (notasDeEstudiantesGlobal >= 83) return "B";
-        if (notasDeEstudiantesGlobal >= 80) return "B-";
-
-        return "C"; // Otra clasificación para notas más bajas
-    }
-
-    static void MostrarResultado(string estudiante, decimal notasSoloExamenes, decimal notasDeEstudiantesGlobal, string estudianteLetraActual, decimal puntajeTotalCreditosExtra, decimal soloCreditos)
-    {
-        Console.WriteLine($"{estudiante}\t\t{notasSoloExamenes}\t\t{notasDeEstudiantesGlobal}\t{estudianteLetraActual}\t\t{puntajeTotalCreditosExtra} ({soloCreditos}pts)");
-    }
-}
 
